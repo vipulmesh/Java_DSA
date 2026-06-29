@@ -28,7 +28,7 @@ public static void main(String[] args) {
 //     F1F1 T(0)
 //   num xor num == 0
 
-// loda mera mujhe nahi sikhna yeh bkchod method 
+// mujhe nahi sikhna yeh bkchod method 
 }
     
 }
