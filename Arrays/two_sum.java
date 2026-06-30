@@ -12,10 +12,12 @@ public class two_sum {
             for (int j = i + 1; j < arr.length; j++) {
                if(arr[i]+arr[j]==target){
                 ans = new int[]{arr[i], arr[j]};
+                //to print the indexes of the array 
+                //ans = new int[]{i, j};
                }
             }
         }
-
+// tc = n(sqr), sc - constant
         System.out.println(Arrays.toString(ans));
     }
 }
