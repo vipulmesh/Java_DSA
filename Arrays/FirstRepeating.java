@@ -1,4 +1,7 @@
 package DSA.Arrays;
+
+import java.util.HashMap;
+
 public class FirstRepeating {
     public static void main(String[] args) {
 
@@ -16,4 +19,22 @@ public class FirstRepeating {
 
         System.out.println("No repeating element");
     }
+    public int optimalSoln(int[] arr) {
+
+    HashMap<Integer, Integer> freq = new HashMap<>();
+
+    // Store frequencies
+    for (int num : arr) {
+        freq.put(num, freq.getOrDefault(num, 0) + 1);
+    }
+
+    // Find first repeating element
+    for (int num : arr) {
+        if (freq.get(num) > 1) {
+            return num;
+        }
+    }
+
+    return -1; // No repeating element
+}
 }
