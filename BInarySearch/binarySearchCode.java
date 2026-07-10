@@ -10,9 +10,7 @@ public class binarySearchCode {
         int end = arr.length - 1;
 
         while (start <= end) {
-
             int mid = start + (end - start) / 2;
-
             if (arr[mid] == target) {
                 System.out.println(mid);
                 return;
@@ -20,7 +18,7 @@ public class binarySearchCode {
                 start = mid + 1;
             } else {
                 end = mid - 1;
-            }
+            } 
         }
 
         System.out.println("Not Found");
