@@ -18,7 +18,7 @@ class SearchInRotatedSortedArray {
                 return;
             }
 
-            // Left half is sorted
+            // Left half is sorted HAHAH
             if (arr[start] <= arr[mid]) {
 
                 if (target >= arr[start] && target < arr[mid]) {
