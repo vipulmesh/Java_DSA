@@ -3,7 +3,8 @@ package DSA.Arrays;
 public class missing_ele {
     public static void main(String[] args) {
         int[] arr = { 2, 1, 4, 5 };
-        int n = arr.length + 1;
+        //missing elemnt milake total arr.lenght+1;;
+        int n = arr.length+1;
         int total_sum = n * (n + 1) / 2;
 
         int sum = 0;
