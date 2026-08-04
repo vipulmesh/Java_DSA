@@ -2,9 +2,8 @@ package DSA.BInarySearch;
 
 public class row_with_max_1s {
     static int get1stOccurrence(int arr[][], int rowIndex) {
-        int totalRow = arr.length;
         int totalCol = arr[0].length;
-        int target = 1;
+        
         int ans = -1;
         // handeling case wheere there is no one inside the row
         // IF MAIN RIGHT MOST ELE IS ZERO MEANS 1 HAI HI NAHI
