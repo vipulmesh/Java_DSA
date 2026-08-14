@@ -2,7 +2,7 @@ package DSA.kk_recursion;
 
 public class countSteps {
     public static void main(String[] args) {
-        
+
         System.out.println(steps(6541));
     }
 
@@ -11,7 +11,7 @@ public class countSteps {
     }
 
     static int helper(int num, int c) {
-        if (num == 0) {
+        if (num== 0) {
             return c;
         }
         if (num % 10 == 2) {
