@@ -161,6 +161,100 @@ public class singleLL {
 
     }
 
+    public void deletetail() {
+        if (head == null) {
+            System.out.println("ll is empty ");
+            return;
+        }
+        if (head == tail) {
+            head = null;
+            tail = null;
+            size = 0;
+            return;
+        }
+        // logic for normal ll
+        Node temp = head;
+        for (int i = 1; i <= size - 2; i++) {
+            temp = temp.next;
+        }
+        // npw temp is pointing to the 2nd last node of the ll
+        temp.next = null;
+        tail = temp;
+    }
+
+    public void deleteAtpos(int pos) {
+        if (pos < 1 || pos > size + 1) {
+            System.out.println("invalid ll");
+            return;
+        }
+        if (pos == 1) {
+            deleteHead();
+            return;
+        }
+        if (pos == size) {
+            deletetail();
+            return;
+        }
+
+        Node prev = head;
+        for (int i = 1; i <= pos - 2; i++) {
+            prev = prev.next;
+        }
+        Node curr = prev.next;
+        Node forward = curr.next;
+
+        prev.next = forward;
+        curr.next = null;
+
+        size--;
+    }
+
+    public void deleteVal(int target) {
+
+        if (head == null) {
+            System.out.println("LL is empty");
+            return;
+        }
+
+        // If target is in head
+        if (head.data == target) {
+            head = head.next;
+            size--;
+
+            if (head == null) {
+                tail = null;
+            }
+
+            return;
+        }
+
+        Node prev = head;
+        Node curr = head.next;
+
+        while (curr != null) {
+
+            if (curr.data == target) {
+
+                prev.next = curr.next;
+
+                // If deleting tail
+                if (curr == tail) {
+                    tail = prev;
+                }
+
+                curr.next = null;
+                size--;
+
+                return;
+            }
+
+            prev = curr;
+            curr = curr.next;
+        }
+
+        System.out.println("Value not found");
+    }
+
     public static void main(String[] args) {
         singleLL mylist = new singleLL();
         mylist.insertAthead(10);
@@ -189,5 +283,14 @@ public class singleLL {
 
         mylist.deleteHead();
         mylist.printLL();
+
+        mylist.deletetail();
+        mylist.printLL();
+
+        mylist.deleteAtpos(2);
+        mylist.printLL();
+
+         mylist.deleteVal(40);
+         mylist.printLL();
     }
 }
