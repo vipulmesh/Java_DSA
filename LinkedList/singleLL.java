@@ -292,5 +292,7 @@ public class singleLL {
 
          mylist.deleteVal(40);
          mylist.printLL();
+
+         mylist.printLL();
     }
 }
