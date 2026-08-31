@@ -1,4 +1,4 @@
-package DSA.LinkedList;
+
 
 public class singleLL {
     static class Node {

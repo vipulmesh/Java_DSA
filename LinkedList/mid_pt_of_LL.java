@@ -1,4 +1,4 @@
-package DSA.LinkedList;
+
 
 public class mid_pt_of_LL {
 
