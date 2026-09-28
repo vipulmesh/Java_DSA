@@ -35,13 +35,12 @@ public class Solution {
                 b = b.next;
             }
 
-            // Move headB ahead
             while (bExtraLen-- > 0) {
                 headB = headB.next;
             }
 
         } 
-        // A is longer
+
         else {
 
             int aExtraLen = 0;
@@ -51,13 +50,11 @@ public class Solution {
                 a = a.next;
             }
 
-            // Move headA ahead
             while (aExtraLen-- > 0) {
                 headA = headA.next;
             }
         }
 
-        // Now both have equal remaining length
         while (headA != null && headB != null) {
 
             if (headA == headB) {
