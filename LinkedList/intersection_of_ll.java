@@ -9,7 +9,7 @@
  *     }
  * }
  */
-public class Solution {
+public class intersection_of_ll {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
 
         if (headA == null || headB == null) {
