@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/vipulmesh/Java_DSA/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0725-split-linked-list-in-parts](https://github.com/vipulmesh/Java_DSA/tree/master/0725-split-linked-list-in-parts) |
 | [1721-swapping-nodes-in-a-linked-list](https://github.com/vipulmesh/Java_DSA/tree/master/1721-swapping-nodes-in-a-linked-list) |
+| [2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/vipulmesh/Java_DSA/tree/master/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [2181-merge-nodes-in-between-zeros](https://github.com/vipulmesh/Java_DSA/tree/master/2181-merge-nodes-in-between-zeros) |
 ## Two Pointers
 |  |
