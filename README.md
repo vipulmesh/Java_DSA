@@ -63,10 +63,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/vipulmesh/Java_DSA/tree/master/0020-valid-parentheses) |
 | [2816-double-a-number-represented-as-a-linked-list](https://github.com/vipulmesh/Java_DSA/tree/master/2816-double-a-number-represented-as-a-linked-list) |
 ## Array
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/vipulmesh/Java_DSA/tree/master/0001-two-sum) |
 | [0027-remove-element](https://github.com/vipulmesh/Java_DSA/tree/master/0027-remove-element) |
+## String
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/vipulmesh/Java_DSA/tree/master/0020-valid-parentheses) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/vipulmesh/Java_DSA/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
