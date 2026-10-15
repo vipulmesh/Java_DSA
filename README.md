@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/vipulmesh/Java_DSA/tree/master/0001-two-sum) |
 | [0142-linked-list-cycle-ii](https://github.com/vipulmesh/Java_DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/vipulmesh/Java_DSA/tree/master/0160-intersection-of-two-linked-lists) |
 ## Math
@@ -62,4 +63,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2816-double-a-number-represented-as-a-linked-list](https://github.com/vipulmesh/Java_DSA/tree/master/2816-double-a-number-represented-as-a-linked-list) |
+## Array
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/vipulmesh/Java_DSA/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
