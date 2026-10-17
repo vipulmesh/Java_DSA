@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/vipulmesh/Java_DSA/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/vipulmesh/Java_DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/vipulmesh/Java_DSA/tree/master/0027-remove-element) |
 | [0061-rotate-list](https://github.com/vipulmesh/Java_DSA/tree/master/0061-rotate-list) |
 | [0086-partition-list](https://github.com/vipulmesh/Java_DSA/tree/master/0086-partition-list) |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/vipulmesh/Java_DSA/tree/master/0001-two-sum) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/vipulmesh/Java_DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/vipulmesh/Java_DSA/tree/master/0027-remove-element) |
 ## String
 |  |
