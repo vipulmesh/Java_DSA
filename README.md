@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0086-partition-list](https://github.com/vipulmesh/Java_DSA/tree/master/0086-partition-list) |
 | [0142-linked-list-cycle-ii](https://github.com/vipulmesh/Java_DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/vipulmesh/Java_DSA/tree/master/0160-intersection-of-two-linked-lists) |
+| [0283-move-zeroes](https://github.com/vipulmesh/Java_DSA/tree/master/0283-move-zeroes) |
 | [1721-swapping-nodes-in-a-linked-list](https://github.com/vipulmesh/Java_DSA/tree/master/1721-swapping-nodes-in-a-linked-list) |
 ## Simulation
 |  |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/vipulmesh/Java_DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/vipulmesh/Java_DSA/tree/master/0027-remove-element) |
 | [0217-contains-duplicate](https://github.com/vipulmesh/Java_DSA/tree/master/0217-contains-duplicate) |
+| [0283-move-zeroes](https://github.com/vipulmesh/Java_DSA/tree/master/0283-move-zeroes) |
 ## String
 |  |
 | ------- |
